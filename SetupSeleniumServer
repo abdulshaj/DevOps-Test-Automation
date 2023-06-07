@@ -1,5 +1,7 @@
 #!/bin/bash
 # Connect to the EC2 instance
+
+
 ssh -i selenium-pem.pem ubuntu@3.110.166.231 -o StrictHostKeyChecking=no  << EOF
 
 # Update the package lists for upgrades and new package installations
