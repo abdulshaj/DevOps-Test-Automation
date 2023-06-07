@@ -1,6 +1,5 @@
 #!/bin/bash
-# Connect to the EC2 instance
-
+# Connect to the Selenium server EC2 instance
 
 ssh -i selenium-pem.pem ubuntu@3.110.166.231 -o StrictHostKeyChecking=no  << EOF
 
